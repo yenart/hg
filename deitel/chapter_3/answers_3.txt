@@ -1,0 +1,13 @@
+3.1.a) object, b) class, c).h, d)type, name, e)data member, f) access specifier, g)void, h)getline(), i)::(binary scope resolution operator), j)#include.
+3.2.a) false - function name begins with a lowercase and all subsequent words in the name begin with an uppercase,
+b)true, c)true, d)false - they are local variables and will be accessible only inside the member function they are declared,e) true, f)true, g)true.
+3.3. Local variable is declared inside the member function and is accessible from the point at which it's declared inside the member function, data member is declared inside the class and is accessible in all member functions of the class and each object of the class has it's copy of data member.
+3.4.  A parameter is the additional info about function to perform its task. Each parameter required by a function specified in the function header. An argument is the value supplied in the function call. When the function is called, the argument value is passed into the function parameter so that the function can perform its task.
+*////////////////////////////////////////////////////////////////////*/
+3.5 Function prototype gives information about function type,count and type of parameters, function definition  is the realization.
+3.6. The constructor without parameters is default constructor. The default constructor provided by the compiler creates an object without giving any initial values to the object's fundamental type data members.For d a members that are objects of other classes, the default constructor implicitly calls each data member's default constructor to ensure that the data member is initialized properly. 
+3.7. A benefit of data member is that all the member functions of the class can manipulate any data members that appear in the class.
+3.8 Header file contains resusable components (class), source code contains main function to execute the application. 
+3.9 #include <string> and std::string.
+3.10. set function - to give(change) the data member a value, get function - to receive the given value.  
+
